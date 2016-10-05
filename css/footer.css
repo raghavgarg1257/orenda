@@ -1,0 +1,141 @@
+footer {
+  		font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+  		text-align: center;
+  		background: white;
+  		padding: 70px 0 40px 0;
+  	}
+
+  	footer img {
+  		width: 40px;
+  		opacity: 1;
+  	}
+
+		.footer-links {
+			font-size: 14px;
+   	 	margin-bottom: 0;
+   	 	color: rgb(25,55,75);
+		}
+
+		.footer-links a {
+			color: rgb(25,55,75);
+		}
+
+		.footer-links a:hover {
+			color: rgb(25,55,75);
+			opacity: 0.7;
+			text-decoration: none;
+			font-weight: 500;
+		}
+
+		.footer-links a:visited {
+			color: rgb(25,55,75);
+		}
+
+			.footer-links a:active {
+			color: rgb(25,55,75);
+		}
+
+		.footer-media-links a {
+			display: inline-block;
+	    text-align: center;
+	    color: rgb(25,55,75);
+	    opacity: 1;
+		}
+
+		.footer-media-links a i {
+			vertical-align: middle;
+			font-size: 20px;
+		}
+
+		.footer-media-links a:hover {
+			opacity: 0.7;
+		}
+		
+		.contact-form .modal-body p {
+			font-size: 16px;
+		    font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		    text-align: center;
+		    color: rgb(25,55,75);
+		}
+
+		.contact-form .modal-title {
+			text-align: center;
+			font-size: 20px;
+		    font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		    color: rgb(25,55,75);
+		    margin-bottom: 20px;
+		}
+
+		.contact-form .footer-media-links {
+			text-align: center;
+		}
+
+		.contact-form ::-webkit-input-placeholder {
+   		color: rgb(25,55,75);
+   		font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+   		font-weight: 400;
+   	
+		}
+
+		.contact-form:-moz-placeholder { 
+		  color: rgb(25,55,75); 
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		  font-weight: 400; 
+		  
+		}
+
+		.contact-form::-moz-placeholder { 
+		  color: rgb(25,55,75);  
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		  font-weight: 400;
+		  
+		}
+
+		.contact-form:-ms-input-placeholder {  
+		  color: rgb(25,55,75);  
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		  
+		  
+		}
+
+		.contact-form .modal-body .feedback-body form .input-field {
+			font-size: 16px;
+		    max-width: 352px;
+		    border: 1px solid rgb(245,245,245);
+		    background: rgb(245,245,245);
+		}
+
+		.contact-form .modal-body .feedback-body form .input-field:focus {
+			background: white;
+		}
+
+		.contact-form .modal-body .feedback-body form .btn {
+			font-size: 16px;
+		    max-width: 352px;
+		   
+		}
+
+		.contact-form #mymodal {
+			padding: 0;
+		}
+
+		.contact-form .modal-header {
+			border-bottom: 0;
+		}
+
+		.contact-form .modal-content {
+			border-radius: 0;
+		}
+
+		.contact-form .modal-header img {
+			width: 145px;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
+		}
+
+		.contact-form .modal {
+		    overflow-x: hidden;
+		    overflow-y: auto;
+		    background: rgba(0,0,0,0.7);
+		}

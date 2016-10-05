@@ -1,0 +1,406 @@
+.nav-header {
+  		transition: all 500ms ease;
+  		-webkit-transition: all 500ms ease;
+  		-moz-transition: all 500ms ease;
+  		-ms-transition: all 500ms ease;
+  		-o-transition: all 500ms ease;
+  	}
+
+  	.nav-header.abc {
+  		transform: translate3d(0, -100%, 0);
+  		-webkit-transform: translate3d(0, -100%, 0);
+  		-moz-transform: translate3d(0, -100%, 0);
+  		-ms-transform: translate3d(0, -100%, 0);
+  		-o-transform: translate3d(0, -100%, 0);
+  	}
+
+  	nav {
+  		transition: all 500ms ease;
+  		-webkit-transition: all 500ms ease;
+  		-moz-transition: all 500ms ease;
+  		-ms-transition: all 500ms ease;
+  		-o-transition: all 500ms ease;
+  	}
+
+  	nav.abc {
+  		transform: translate3d(0, -100%, 0);
+  		-webkit-transform: translate3d(0, -100%, 0);
+  		-moz-transform: translate3d(0, -100%, 0);
+  		-ms-transform: translate3d(0, -100%, 0);
+  		-o-transform: translate3d(0, -100%, 0);
+  	}
+
+  	
+
+  	.menu-icon:focus {
+  		outline: none;
+  	}
+
+    @media (min-width: 850px) and (max-width: 991px) {
+    	nav .container {
+    		width: 93%;
+    		padding-left: 5%;
+    	}
+    }
+
+    @media (min-width: 768px) {
+    	nav {
+      padding: 10px 0px;
+      background: white;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      height: 59px;
+    }
+
+    nav .container {
+      display: table;
+      padding-right: calc(3.7%/2);
+      padding-left: 0;
+      height: 40px;
+    }
+
+    nav .nav-header {
+    	height: 0;
+      display: block;
+      vertical-align: middle;
+      text-align: center;
+    }
+    
+    nav .brand img {
+      height: 40px;
+      max-width: 120px;
+      margin: 0 auto;
+    }
+
+	    nav .outer-links {
+	      display: table-cell;
+	      vertical-align: middle;
+	      text-align: right;
+	      font-family: 'Raleway', sans-serif;
+	      font-weight: bolder;
+	      letter-spacing: 1px;
+	    }
+
+	    nav .outer-links ul {
+	    	margin-bottom: 0;
+	    }
+
+	    .outer-links .links a {
+			text-decoration: none;
+			
+			opacity: 1;
+			color: rgb(25,55,75);
+			
+			text-shadow: none;
+		}
+
+		.outer-links .links a:hover {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+
+		}
+
+		.outer-links .links a:active {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+		}
+
+		.outer-links .links a:visited {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+		}
+
+		.login-signup li:nth-child(2) {
+			margin-right: 0;
+		}
+
+		#signup {
+			color: rgb(72,172,88);
+		}
+
+		#signup:hover {
+			color: white;
+		}
+
+		#signup:focus {
+     outline: 0;
+    }
+
+		.login-signup .btn-info:hover {
+			background-color: rgb(72,172,88);
+		}
+
+	    nav ul li {
+	      display: inline-block;
+	      margin-right: 35px;
+	    }
+
+	    .login-signup .btn-info {
+	    	color: rgb(25,55,75);
+	    	background-color: transparent;
+	    	border-color: rgb(72,172,88);
+	      margin-right: 0;
+	    }
+
+			nav ul li a {
+				text-decoration: none;
+				color: rgb(25,55,75);
+				font-size: 18px;
+
+			}
+
+			.login-signup {
+				display: inline-block;
+			}
+
+			.outer-links .links a.cli.scroll {
+				color: rgb(25,55,75);
+			}
+			
+		}
+
+
+		@media (max-width: 767px) { 
+		nav {
+			position: fixed;
+			top: 0;
+			
+			width: 100%;
+			height: 0px;
+		}
+
+		nav .container {
+			padding: 0;
+		}
+
+		.nav-header {
+			width: 100%;
+			height: 60px;
+			position: absolute;
+			background: white;
+		}
+
+		nav .container .nav-header .brand{
+			position: absolute;
+			top: 10px;
+			left: 15px;
+			transition: transform 0.4s cubic-bezier(.25,.46,.45,.94);
+			-webkit-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -moz-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -o-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -ms-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+		}
+
+		nav .container .nav-header .brand a img {
+			display: block;
+			max-width: 120px;
+			height: 40px;
+		}
+
+		.menu-icon {
+			background: transparent;
+			border: 0;
+			position: absolute;
+			top: 0px;
+			right: 0px; 
+			z-index: 3;
+			padding: 20px 15px;
+			transition: transform 0.4s cubic-bezier(.25,.46,.45,.94);
+			-webkit-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -moz-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -o-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -ms-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+		}
+
+		.menu-icon .lines {
+			height: 3px;
+			width: 30px;
+			background: rgb(25,55,75);
+			border-radius: 25%;
+		}
+
+		.menu-icon .line2 {
+			margin-top: 5px;
+		}
+
+		.menu-icon .line3 {
+			margin-top: 5px;
+		}
+
+		.outer-links {
+			position: fixed;
+			overflow: auto;
+	    top: 0;
+	    right: -270px;
+	    width: 270px;
+	    height: 100vh;
+	    background: white;
+	    display: block;
+	    z-index: 2;
+	    font-family: 'Raleway', sans-serif;
+	    transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -webkit-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -moz-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -o-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+	    -ms-transition: right 0.4s cubic-bezier(.25,.46,.45,.94);
+		}
+
+		.links {
+			margin-bottom: 0;
+	    list-style: none;
+	    display: table;
+	    width: 100%;
+	    font-size: 18px;
+	    margin-top: 70px;
+		}
+
+		.outer-links .links a {
+			text-decoration: none;
+			display: block;
+			text-align: left;
+			padding: 10px 0;
+			color: rgb(25,55,75);
+			letter-spacing: 1px;
+			text-shadow: none;
+			padding-left: 30px; 
+			font-weight: bolder;
+		}
+
+		.outer-links .links a:hover {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+			opacity: 0.7;
+		}
+
+		.outer-links .links a:active {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+		}
+
+		.outer-links .links a:visited {
+			text-decoration: none;
+			opacity: 0.7;
+			text-decoration: none;
+			color: rgb(25,55,75);
+		}
+
+		.outer-links .links .btn {
+			color: white;
+		}
+
+		.outer-links .links .btn:visited {
+			color: white;
+		}
+
+		.outer-links .links .btn:hover {
+			color: white;
+		}
+
+		.outer-links .links .btn:active {
+			color: white;
+		}
+
+		.outer-links.open {
+			right: 0px;
+		}
+
+		.login-signup {
+			display: table-header-group;
+		}
+
+		.login-signup li {
+			display: inline-block;
+			margin-right: 
+		}
+
+		.login-signup li:nth-child(1) a {
+			padding-right: 50px;
+		} 
+
+		.login-signup li:nth-child(2) {
+			position: absolute;
+			right: 20px;
+			padding-top: 4px;
+		}
+
+		.login-signup li:nth-child(2) a {
+			padding: 5px 10px;
+		}
+
+		.login-signup .btn-info {
+	    	color: white;
+	    	background-color: rgba(72,172,88,0.8);
+	    	border-color: rgba(72,172,88,0.8);
+	    }
+
+	    .login-signup .btn-info:hover {
+	    	color: white;
+	    	background-color: rgb(72,172,88);
+	    	border-color: rgb(72,172,88);
+	    }
+
+		.nav-header .brand-toggle {
+			transform: translate3d(-270px,0px,0px);
+			-webkit-transform: translate3d(-270px,0px,0px);
+			-moz-transform: translate3d(-270px,0px,0px);
+			-ms-transform: translate3d(-270px,0px,0px);
+			-o-transform: translate3d(-270px,0px,0px);
+		}
+
+
+		.rotation {
+			transform: rotate(180deg);
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			-ms-transform: rotate(180deg);
+			-o-transform: rotate(180deg);
+		}
+
+		.outer {
+		  display: inline-block;
+		  vertical-align: middle;
+		  position: relative;
+		}
+		.outer:before {
+		  content: "";
+		  position: absolute;
+		  width: 22px;
+		  height: 2px;
+		  left: 0;
+		  right: 0;
+		  bottom: 50%;
+		  background: #2098d1;
+		  -webkit-transform: scaleX(0);
+		  transform: scaleX(0);
+		  -webkit-transform-origin: 0 50%;
+		  transform-origin: 0 50%;
+		  -webkit-transition-property: transform;
+		  transition-property: transform;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-timing-function: ease-out;
+		  transition-timing-function: ease-out;
+		}
+
+		.outer:hover:before, .outer:focus:before, .outer:active:before {
+		  -webkit-transform: scaleX(1);
+		  transform: scaleX(1);
+		}
+
+		.login-signup a.outer:hover:before, .outer:focus:before, .outer:active:before {
+		  -webkit-transform: scaleX(1);
+		  transform: scaleX(1);
+		}
+
+	}

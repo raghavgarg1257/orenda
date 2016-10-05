@@ -1,0 +1,311 @@
+		.course1 .time-cover {
+			background: url('../img/course1.jpg') center center no-repeat;
+			background-size: cover;
+			height: 300px;
+			position: relative;
+		}
+
+		.course2 .time-cover {
+			background: url('../img/course2.jpg') center center no-repeat;
+			background-size: cover;
+			height: 300px;
+			position: relative;
+		}
+
+		.course3 .time-cover {
+			background: url('../img/course3.jpg') center center no-repeat;
+			background-size: cover;
+			height: 300px;
+			position: relative;
+		}
+
+		.course .time-cover .time {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			transition: all 0.3s ease-in-out;
+			-webkit-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    -o-transition: all 0.3s ease-in-out;
+		}
+
+		.time p {
+			opacity: 0;
+			position: absolute;
+			top: 15%;
+			right: 15%;
+			color: white;
+			font-size: 1.8rem;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+			font-weight: 500;
+			letter-spacing: 0.5px;
+			transition: all 0.3s ease-in-out;
+			-webkit-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    -o-transition: all 0.3s ease-in-out;
+		}
+
+		.course .info {
+			padding-left: 10px;
+			cursor: default;
+			color: rgb(25,55,75);
+			transition: all 0.3s ease-in-out;
+		}
+
+		.course .info h3 {
+			font-size: 2em;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+			
+			text-shadow: none;
+			font-weight: 600;
+			margin-bottom: 7px;
+			margin-top: 10px;
+		}
+
+		.course .info p {
+			font-size: 1.6rem;
+			line-height: 20px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			
+			letter-spacing: 1px;
+			text-shadow: none;
+		}
+
+		.time-cover .border {
+			width: 100%;
+	    background: rgb(69,202,88);
+	    display: block;
+	    height: 35px;
+	    transform-origin: bottom;
+	    -webkit-transform-origin: bottom;
+	    -moz-transform-origin: bottom;
+	    -ms-transform-origin: bottom;
+	    -o-transform-origin: bottom;
+	    transform: scaleY(0);
+	    -webkit-transform: scaleY(0);
+			-ms-transform: scaleY(0);
+			-moz-transform: scaleY(0);
+			-o-transform: scaleY(0);
+	    position: absolute;
+	    bottom: 0;
+	    transition: all 0.3s ease-in-out;
+	    -webkit-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    -o-transition: all 0.3s ease-in-out;
+		}
+
+		.time-cover .border .arrow-tail {
+			height: 2px;
+			width: 40px;
+			background: white;
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: -30px;
+			transition: all 0.3s ease-in-out;
+			-webkit-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    -o-transition: all 0.3s ease-in-out;
+			opacity: 0;
+		}
+
+		.time-cover .border .arrow-head {
+			position: absolute;
+	    display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    color: white;
+	    border-top: 2px solid;
+	    border-left: 2px solid;
+	    transform: rotate(135deg);
+	    -webkit-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	    -moz-transform: rotate(135deg);
+	    -o-transform: rotate(135deg);
+	    top: 40%;
+	    left: -61px;
+	    transition: all 0.3s ease-in-out;
+	    -webkit-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    -o-transition: all 0.3s ease-in-out;
+	    opacity: 0;
+		}		
+
+		.courses a:hover {
+			text-decoration: none;
+		}
+
+		.courses a:visited {
+			text-decoration: none;
+		}
+
+		.courses a:active {
+			text-decoration: none;
+		}
+
+		.courses a:link {
+			text-decoration: none;
+		}
+
+		/*.bg {
+			background: rgba(0,0,0,0.8);
+		}
+
+		.time p.show{
+			opacity: 1;
+		}
+
+		.border.enter-in {
+			-webkit-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			-moz-transform: scaleY(1);
+			-o-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+
+		.border .arrow-head.arrow1 {
+			left: 61px;
+			opacity: 1;
+		}
+
+		.border .arrow-tail.arrow2 {
+			left: 30px;
+			opacity: 1;
+		}*/
+
+		.courses header h1 {
+			text-align: center;
+			font-size: 32px;
+			color: rgb(25,55,75);
+			margin-bottom: 0;
+			font-weight: 500;
+		}
+
+		.courses header p {
+			text-align: center;
+			font-size: 16px;
+			color: rgb(25,55,75);
+		}
+
+		.courses header {
+			margin-bottom: 20px;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		}
+
+		@media (min-width: 768px) {
+			.courses .col-sm-6, .courses .col-md-4 {
+				padding: 0 5px;
+			}
+
+			.bg {
+			background: rgba(0,0,0,0.8);
+			}
+
+			.time p.show{
+				opacity: 1;
+			}
+
+			.border.enter-in {
+				-webkit-transform: scaleY(1);
+				-ms-transform: scaleY(1);
+				-moz-transform: scaleY(1);
+				-o-transform: scaleY(1);
+				transform: scaleY(1);
+			}
+
+			.border .arrow-head.arrow1 {
+				left: 61px;
+				opacity: 1;
+			}
+
+			.border .arrow-tail.arrow2 {
+				left: 30px;
+				opacity: 1;
+			}
+
+			.course .info.showup {
+				transform: translateY(-130px);
+				color: white;
+			}
+
+			.hover-shadow {
+				box-shadow: 4px 4px 10px -3px black;
+			}			
+		}
+
+		@media (max-width: 768px) {
+			.courses header h1 {
+				font-size: 28px;
+			}
+
+			.course .time-cover .time {
+				background: rgba(0,0,0,0.7);
+			}
+
+			.course .time-cover .time {
+				box-shadow: 4px 4px 10px -3px black;
+			}	
+
+			.course .time p {
+				opacity: 1;
+			}
+
+			.course .time-cover .border {
+				-webkit-transform: scaleY(1);
+				-ms-transform: scaleY(1);
+				-moz-transform: scaleY(1);
+				-o-transform: scaleY(1);
+				transform: scaleY(1);
+			}
+
+			.course .time-cover .border .arrow-head {
+				left: 61px;
+				opacity: 1;
+			}
+
+			.course .time-cover .border .arrow-tail {
+				left: 30px;
+				opacity: 1;
+			}
+
+			.course .info {
+				transform: translateY(-175px);
+				color: white;
+			}
+
+			.course .info p {
+				font-weight: 100;
+			}
+
+			.course .info {
+				padding-right: 10px;
+			}
+
+			.course {
+				height: 300px;
+			}
+		}
+
+		@media (max-height: 500px) {
+			.course1 .time-cover {
+				height: 250px;
+			}
+
+			.course2 .time-cover {
+				height: 250px;
+			}
+
+			.course3 .time-cover {
+				height: 250px;
+			}
+		}
+
+		
+
+

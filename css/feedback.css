@@ -1,0 +1,190 @@
+.feedback-form {
+			height: 315px;
+			width: 250px;
+			background: white;
+			position: fixed;
+			top: calc(50vh - 157px);
+			box-shadow: 4px 4px 10px -3px;
+			left: -253px;
+			transition: left 0.5s, transform 1s ease-in-out;
+			-webkit-transition: left 0.5s, transform 1s ease-in-out;
+			-moz-transition: left 0.5s, transform 1s ease-in-out;
+			-ms-transition: left 0.5s, transform 1s ease-in-out;
+			-o-transition: left 0.5s, transform 1s ease-in-out;
+			z-index: 500;
+		}
+
+		.feedback-btn {
+			position: absolute;
+			transform: rotate(-90deg);
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			top: 40%;
+			left: 216px;
+			border-radius: 0;
+			font-family: 'Raleway', sans-serif;
+			border: 0;
+			font-size: 14px;
+			font-weight: bolder;
+			letter-spacing: 1px;
+			outline: none;
+			
+		}
+
+		.feedback-btn:hover {
+			box-shadow: none;
+			outline: none;
+		}
+
+		.feedback-btn:active {
+			border: 0;
+			outline: none;
+			background: #337ab7;
+		}
+
+		.feedback-btn:focus {
+			border: 0;
+			outline: none;
+			background: #337ab7;
+		}
+
+		.feedback-form h3 {
+			padding: 10px;
+			background: rgb(60,148,139);
+			color: white;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+
+		.feedback-body {
+			background: lightgrey;
+			padding: 10px;
+			padding-bottom: 0;
+		}
+
+		.feedback-body input {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.feedback-body textarea {
+			width: 100%;
+			resize: none;
+			margin-bottom: 10px;
+		}
+
+		.input-field {
+			padding: 6px 0 6px 10px;
+			font-size: 14px;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		}
+
+		.input-field:focus {
+			outline: none;
+		}
+
+		::-webkit-input-placeholder {
+   		color: rgb(25,55,75);
+   		font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+   		font-weight: bolder;
+		}
+
+		:-moz-placeholder { 
+		  color: rgb(25,55,75); 
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif; 
+		  font-weight: bolder;
+		}
+
+		::-moz-placeholder { 
+		  color: rgb(25,55,75);  
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		  font-weight: bolder;
+		}
+
+		:-ms-input-placeholder {  
+		  color: rgb(25,55,75);  
+		  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+		  font-weight: bolder;
+		}
+
+		input.btn.btn-success {
+			background: rgb(60,148,139);
+			border: 0;
+			border-radius: 0;
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+			color: white;
+			padding: 6px 0;
+			font-weight: bolder;
+		}
+
+		input.btn.btn-success:active {
+			background: rgb(60,140,139);
+			border: 0;
+			outline: 0;
+		}
+
+		.feedback-footer {
+			position: absolute;
+			top: 42px;
+			bottom: 0;
+			left: -250px;
+			background: white;
+			width: 100%;
+			transform: translateX(-250px);
+			-webkit-transform: translateX(-250px);
+			-moz-transform: translateX(-250px);
+			-o-transform: translateX(-250px);
+			-ms-transform: translateX(-250px);
+			transition: transform 0.5s ease-in-out;
+			-webkit-transition: transform 0.5s ease-in-out;
+			-moz-transition: transform 0.5s ease-in-out;
+			-ms-transition: transform 0.5s ease-in-out;
+			-o-transition: transform 0.5s ease-in-out;
+		}
+
+		.feedback-footer h1{ 
+	    font-size: 28px;
+	    padding: 10px;
+	    margin: 0;
+	    margin-top: 25px;
+	    text-align: center;
+	    font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+	    font-weight: 400;
+	    color: rgb(25,55,75);
+	  }
+
+		.feedback-footer h1 span {
+			font-size: 24px;
+	    margin-top: 11px;
+	    display: block;
+		}
+
+		.feedback-form.slide {
+			left: 0;
+		}
+
+		.feedback-footer.slidein {
+			transform: translateX(250px);
+			-webkit-transform: translateX(250px);
+			-moz-transform: translateX(250px);
+			-ms-transform: translateX(250px);
+			-o-transform: translateX(250px);
+		}
+
+		.feedback-form.movein {
+			transform: translateX(-281px);
+			-webkit-transform: translateX(-281px);
+			-moz-transform: translateX(-281px);
+			-ms-transform: translateX(-281px);
+			-o-transform: translateX(-281px);
+		}
+
+		@media (max-width: 700px) {
+			.feedback-form {
+				display: none;
+			}
+		}

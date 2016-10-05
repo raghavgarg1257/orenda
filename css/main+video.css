@@ -1,0 +1,171 @@
+
+
+		
+
+		
+		.main-section {
+			width: 100%;
+			height: 100vh;
+			background: url('../img/cover_img.jpg') center center  no-repeat;
+			background-size: cover;
+		}
+
+		.main-section .cover-section {
+     	background: rgba(25,55,75,0.7);
+     	height: 100%;
+     	width: 100%;
+		}
+
+		.container-1 {
+
+			display: table-cell;
+			vertical-align: middle;
+			margin: 0 auto;
+			text-align: center;
+			color: white;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 300;
+			
+		}
+
+		.container-1>p {
+			font-size: 30px; 
+			letter-spacing: 1px;
+			padding: 0 10px;
+			font-weight: 300;
+		}
+
+		#sub-heading {
+			font-size: 20px; 
+			margin: 3px 0 20px 0;
+		}
+
+
+
+		.video-section {
+			font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+			color: rgb(25,55,75);
+		}
+
+		.video-section h2 {
+			font-size: 28px;
+			margin: 0;
+			margin-bottom: 15px;
+			text-align: left;
+			font-weight: normal;
+		}
+
+		.video-section p {
+			text-align: left;
+			font-size: 16px;
+			margin-bottom: 15px;
+		}
+
+		.video-section video {
+			width: 100%;
+		}
+
+		.video-section .container {
+			padding: 0 5%;
+		}
+
+		.video-section {
+			margin-top: 80px;
+		}
+
+		@media (min-width: 992px) {
+			/*.video-section {
+				margin-top: 60px;
+			}*/
+
+			.video-section .container {
+				padding: 0;
+			}
+
+			.video-section .container .col-md-4 {
+				padding-left: 0; 
+				padding-right: 0; 
+				margin-top: calc(3.6% * 1.2);
+			}
+
+			.video-section h2 {
+				font-size: 32px;
+				text-align: right;
+				margin-bottom: 20px;
+			}
+
+			.video-section p {
+				text-align: right;
+				margin-bottom: 0px;
+			}
+
+			.video-section .container .col-md-8 {
+				 padding-left: 0; 
+				 padding-right: 20px;
+			}
+
+			.video-section video {
+				 width: 90%;
+				 margin-left: 50px;
+			}
+		}
+
+		@media (max-width: 767px) {
+
+			.container-1>p {
+				font-size: 30px;
+				font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Ubuntu", sans-serif;
+				letter-spacing: 0.5px;
+				padding: 0 10px;
+			}
+
+			.video-section .container .col-md-8 {
+				padding-left: 0; 
+				padding-right: 0px;
+			}
+
+		}
+
+
+		@media (max-height: 490px) {
+			#heading {
+				margin-top: calc(10vh * 1.4);
+			}
+		}
+
+		@media (max-width: 400px) {
+			.video-section .container {
+				padding: 0 3%;
+			}
+		}
+
+		.cover-element {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			z-index: 2000;
+			background: rgba(0,0,0,0.7);
+			display: none;
+		}
+
+		.show-hide {
+			display: block;
+		}
+
+		.nav-bg-color {
+			background: transparent;
+		}
+
+		.lines.bg-color2 {
+			background: rgb(25,55,75);
+		}
+
+		.cover-section .container-1 .btn-success {
+			background: rgb(60,167,80);
+			border-color: rgb(60,167,80);
+		}
+		.cover-section .container-1 .btn-success:hover {
+			background: rgb(50,150,70);
+		}

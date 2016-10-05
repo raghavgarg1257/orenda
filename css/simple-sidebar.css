@@ -1,0 +1,167 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    //padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 10;
+    position: fixed;
+    left: 250px;
+    top:0px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    background-color: rgb(240,240,240);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 15px;
+    padding-top: 60px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.hidd{
+    display: inline;
+}
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 58px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.05em;
+}
+
+.sidebar-nav li a:hover {
+	color: white;
+	background: rgb(25,55,75);
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    opacity: .9;
+    
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.video-button {
+	z-index: 10;
+}
+
+@media(min-width:1200px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+    
+    .sidebar-nav {
+        top: 80px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    .hidd{
+        display: none;
+    }
+    #sidebar-wrapper {
+        width: 250px;
+        background-color: rgb(240,240,240);
+        
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+padding-top:30px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+    
+    .video-head h2 {
+	  	margin-top: 50px;
+	  }
+}
+
+@media (max-width: 1199px) {
+	#sidebar-wrapper {
+		 box-shadow: 0px 0 6px black;
+		 z-index: 1500;
+	}
+	
+	.video-button {
+		z-index: 1600;
+	}   
+}
