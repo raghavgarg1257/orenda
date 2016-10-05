@@ -1,8 +1,8 @@
 <?php 
 
 	$_srvr = "localhost";
-	$_user = "rootuser";
-	$_pass = "rootpassword@123";
+	$_user = "root";
+	$_pass = "secret";
 	$_db = "virtual_tutorial";
 
  ?>
