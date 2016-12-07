@@ -244,7 +244,7 @@
 					<h3 style="text-align: center">Our Team</h3>
 					<div class="row">
 
-						<div class="images col-md-3 col-sm-5 col-sm-offset-1 col-md-offset-0">
+<!-- 						<div class="images col-md-3 col-sm-5 col-sm-offset-1 col-md-offset-0">
 							<div class="dev-img" style="">
 								<div class="img-cover">
 								</div>
@@ -259,8 +259,25 @@
 								<h5>&nbsp;</h5>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							</div>
-						</div>
+						</div> -->
 
+						<div class="images col-md-3 col-sm-5 col-md-offset-0">
+							<div class="dev-img" style="">
+								<div class="img-cover">
+								</div>
+								<img src="images/raghav.jpg">
+									<div class="dev-media-links">
+										<a href="https://fb.com/raghav.garg.1257" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
+										<a href="https://linkedin.com/in/raghav-garg-8885468a" target="_blank" class="fa fa-linkedin"></a>
+									</div>
+								</div>
+							<div class="description">
+								<h4>Raghav Garg</h4>
+								<h5>Backend & UX Developer</h5>
+								<p>He is our only backend guy, who created this website<!--'-->'s backend solely from the scratch and works real hard towards improving the user experience at every step of the user in this website.</p>
+							</div>
+						</div>
+						
 						<div class="images col-md-3 col-sm-5 col-md-offset-0">
 							<div class="dev-img" style="">
 								<div class="img-cover">
@@ -290,7 +307,7 @@
 								</div>
 							<div class="description">
 								<h4>Kartik Bansal</h4>
-								<h5>Lead UI/UX Designer &<br>Front End Developer</h5>
+								<h5>UI/UX Designer &<br>Front End Developer</h5>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							</div>
 						</div>
@@ -299,16 +316,15 @@
 							<div class="dev-img" style="">
 								<div class="img-cover">
 								</div>
-								<img src="images/raghav.jpg">
+								<img src="images/anmol.jpg">
 									<div class="dev-media-links">
-										<a href="https://fb.com/raghav.garg.1257" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
-										<a href="https://linkedin.com/in/raghav-garg-8885468a" target="_blank" class="fa fa-linkedin"></a>
+										<a href="https://www.facebook.com/anmol93" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
 									</div>
 								</div>
 							<div class="description">
-								<h4>Raghav Garg</h4>
-								<h5>Backend & UX Developer</h5>
-								<p>He is our only backend guy, who created this website<!--'-->'s backend solely from the scratch and works real hard towards improving the user experience at every step of the user in this website.</p>
+								<h4>Anmol Singh</h4>
+								<h5>Web Designer</h5>
+								<p>I love how the web works.After decades of its establishment,i find it just amazing that how easier things have become with the help of web. I am always trying to learn new web technologies and designs.</p>
 							</div>
 						</div>
 
