@@ -316,7 +316,7 @@
 							<div class="dev-img" style="">
 								<div class="img-cover">
 								</div>
-								<img src="images/anmol.jpg">
+								<img src="images/imageedit_2_2428478572.jpg">
 									<div class="dev-media-links">
 										<a href="https://www.facebook.com/anmol93" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
 									</div>
