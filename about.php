@@ -301,14 +301,14 @@
 								</div>
 								<img src="images/kartik.jpg">
 									<div class="dev-media-links">
-										<a href="#" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
-										<a href="#" target="_blank" class="fa fa-linkedin"></a>
+										<a href="https://kartikbansal.github.io/my-portfolio/" target="_blank" class="fa fa-globe" style="margin-right: 10px"></a>
+										<a href="https://in.linkedin.com/in/kartik-bansal-28b984126" target="_blank" class="fa fa-linkedin"></a>
 									</div>
 								</div>
 							<div class="description">
 								<h4>Kartik Bansal</h4>
 								<h5>UI/UX Designer &<br>Front End Developer</h5>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								<p>An IT undergraduate who is a design enthusiast and a passionate developer. He is our Lead Designer who codes efficiently to create the perfect experience between user and application.</p>
 							</div>
 						</div>
 
