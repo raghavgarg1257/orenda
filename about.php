@@ -299,7 +299,7 @@
 							<div class="dev-img" style="">
 								<div class="img-cover">
 								</div>
-								<img src="images/kartik.jpg">
+								<img src="images/kartik.png">
 									<div class="dev-media-links">
 										<a href="https://kartikbansal.github.io/my-portfolio/" target="_blank" class="fa fa-globe" style="margin-right: 10px"></a>
 										<a href="https://in.linkedin.com/in/kartik-bansal-28b984126" target="_blank" class="fa fa-linkedin"></a>
