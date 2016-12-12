@@ -299,7 +299,7 @@
 							<div class="dev-img" style="">
 								<div class="img-cover">
 								</div>
-								<img src="images/kartik.jpg">
+								<img src="images/kartik.png">
 									<div class="dev-media-links">
 										<a href="#" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
 										<a href="#" target="_blank" class="fa fa-linkedin"></a>
