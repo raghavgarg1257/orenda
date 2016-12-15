@@ -15,11 +15,11 @@
 	}
 	function regularemail($email) {
 		if(preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/', $email)) {
-			list($user_name, $mail_domain) = split("@", $email);
-			if (checkdnsrr($mail_domain,"MX"))
+// 			list($user_name, $mail_domain) = split("@", $email);
+// 			if (checkdnsrr($mail_domain,"MX"))
 				return true;
-			else
-				return false;
+// 			else
+// 				return false;
 		}
 		else
 			return false;
