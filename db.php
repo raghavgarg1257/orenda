@@ -2,7 +2,7 @@
 
 	$_srvr = "localhost";
 	$_user = "root";
-	$_pass = "something";
+	$_pass = "orenda";
 	$_db = "virtual_tutorial";
 
  ?>
