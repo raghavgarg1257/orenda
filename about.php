@@ -267,8 +267,8 @@
 								</div>
 								<img src="images/raghav.jpg">
 									<div class="dev-media-links">
-										<a href="https://fb.com/raghav.garg.1257" target="_blank" class="fa fa-facebook" style="margin-right: 10px"></a>
-										<a href="https://linkedin.com/in/raghav-garg-8885468a" target="_blank" class="fa fa-linkedin"></a>
+										<a href="https://raghavgarg1257.github.io" target="_blank" class="fa fa-globe" style="margin-right: 10px"></a>
+										<a href="https://linkedin.com/in/raghavgarg1257" target="_blank" class="fa fa-linkedin"></a>
 									</div>
 								</div>
 							<div class="description">
