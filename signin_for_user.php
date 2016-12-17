@@ -23,11 +23,11 @@
 	{
 		//if(preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/', $emailid)) {
 		if(ereg("^[A-Za-z0-9\.|-|_]*[@]{1}[A-Za-z0-9\.|-|_]*[.]{1}[a-z]{2,5}$", $emailid)) {
-			list($user_name, $mail_domain) = split("@", $emailid);
-			if (checkdnsrr($mail_domain,"MX"))
+// 			list($user_name, $mail_domain) = split("@", $emailid);
+// 			if (checkdnsrr($mail_domain,"MX"))
 				return true;
-			else
-				return false;
+// 			else
+// 				return false;
 		}
 		else
 			return false;
