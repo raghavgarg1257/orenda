@@ -145,11 +145,7 @@
 			transition: opacity 0.7s, transform 0.7s;
 		}
 
-		.About-us .developers .dev-media-links .fa-facebook:hover {
-			opacity: 0.7;
-		}
-
-		.About-us .developers .dev-media-links .fa-linkedin:hover {
+		.About-us .developers .dev-media-links .fa:hover {
 			opacity: 0.7;
 		}
 
